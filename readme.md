@@ -106,13 +106,13 @@ Becuase it is almost entirely 3D printed, because it was first, and because the 
 
 ## Part Index
 
-1.Rear Receiver<br/>2.Front Receiver<br/>3.Cover<br/>4.Anti-Rotation Plug
+|1.Rear Receiver<br/>2.Front Receiver<br/>3.Cover<br/>4.Anti-Rotation Plug|![Demo Animation](https://github.com/chaddavisdesign/plastikov.scad/blob/main/render/plastikov.gif?raw=true)|
+|--|--|
 
 ## Creating STLs
 OpenSCAD natively exports STLs. My focus was short scripts, not optimising the speed of the compiler, so some of the parts take a bit to create.
 
 **OpenSCAD GUI**
-![Demo Animation](../render/plastikov.gif?raw=true)
 Open liberator.scad in OpenSCAD. Change p=1 to part number to generate. Click STL button on Toolbar.
 
 Note: Part 1 (the frame) generates a warning, but the stl does seem to be watertight according to MeasLab. There is a fix commented in the header file in the torus module.
